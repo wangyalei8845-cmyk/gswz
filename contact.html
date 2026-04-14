@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>联系我们 - 商丘氧漫网络科技有限公司</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <header class="nav-header" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">⊙</span>
+        <span class="logo-text">氧漫科技</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于我们</a>
+        <a href="services.html">产品服务</a>
+        <a href="contact.html" class="active">联系我们</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 页面 Hero -->
+  <section class="page-hero">
+    <div class="page-hero-bg"></div>
+    <div class="container page-hero-content">
+      <div class="breadcrumb"><a href="index.html">首页</a> / <span>联系我们</span></div>
+      <h1>联系我们</h1>
+      <p>有任何问题或合作意向，欢迎随时与我们取得联系</p>
+    </div>
+  </section>
+
+  <!-- 联系区域 -->
+  <section class="section section-light">
+    <div class="container contact-wrapper">
+
+      <!-- 联系信息 -->
+      <div class="contact-info">
+        <h3>与我们取得联系</h3>
+        <p class="contact-intro">无论是商务合作、课程咨询、创业陪跑报名，还是媒体采访，我们都欢迎您的到来。</p>
+
+        <div class="contact-items">
+          <div class="ci-item">
+            <div class="ci-icon-wrap">📍</div>
+            <div>
+              <h5>公司地址</h5>
+              <p>河南省商丘市</p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon-wrap">📧</div>
+            <div>
+              <h5>电子邮件</h5>
+              <p>284198128@qq.com</p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon-wrap">📞</div>
+            <div>
+              <h5>商务电话</h5>
+              <p>请通过表单留言，我们将尽快回复</p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon-wrap">⏰</div>
+            <div>
+              <h5>工作时间</h5>
+              <p>周一至周五 9:00 - 18:00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-social">
+          <h5>关注我们</h5>
+          <div class="social-tags">
+            <span class="social-tag">微信公众号</span>
+            <span class="social-tag">抖音</span>
+            <span class="social-tag">B站</span>
+            <span class="social-tag">小红书</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 联系表单 -->
+      <div class="contact-form-wrap">
+        <h3>发送消息</h3>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">您的姓名 <span class="req">*</span></label>
+              <input type="text" id="name" name="name" placeholder="请输入您的姓名" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">联系电话 <span class="req">*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="请输入您的电话号码" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">电子邮件</label>
+            <input type="email" id="email" name="email" placeholder="请输入您的邮箱地址" />
+          </div>
+          <div class="form-group">
+            <label for="subject">咨询类型 <span class="req">*</span></label>
+            <select id="subject" name="subject" required>
+              <option value="" disabled selected>请选择咨询类型</option>
+              <option value="production">AI 漫剧制作发行合作</option>
+              <option value="training">AI 漫剧教学培训报名</option>
+              <option value="startup">AI 项目创业陪跑</option>
+              <option value="media">媒体采访 / 合作</option>
+              <option value="other">其他咨询</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">留言内容 <span class="req">*</span></label>
+            <textarea id="message" name="message" rows="5" placeholder="请详细描述您的需求或问题..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span class="btn-text">提交留言</span>
+            <span class="btn-icon">→</span>
+          </button>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <div class="success-icon">✓</div>
+          <h4>消息已发送！</h4>
+          <p>感谢您的留言，我们会在 1 个工作日内与您联系。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-gray">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">常见问题</div>
+        <h2 class="section-title">您可能想了解</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            <span>AI 漫剧教学培训适合哪些人群？</span>
+            <span class="faq-arrow">▼</span>
+          </div>
+          <div class="faq-a">
+            我们的课程适合所有对 AI 内容创作感兴趣的人，包括：零基础入门学习者、已有创作基础但想借助 AI 提效的内容创作者、希望进入 AI 赛道的传统行业从业者，以及内容创业者。课程分级设计，每个阶段都有对应的学习路径。
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            <span>AI 漫剧制作合作的流程是怎样的？</span>
+            <span class="faq-arrow">▼</span>
+          </div>
+          <div class="faq-a">
+            通常包含以下步骤：① 需求沟通与方案设计（1-3 天）→ ② 合同签订与项目立项 → ③ 剧本创作与视觉风格确认 → ④ AI 制作生产 → ⑤ 审核修改 → ⑥ 交付与发行支持。具体周期和报价根据项目复杂度而定，请通过上方表单联系我们获取定制方案。
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            <span>创业陪跑服务有哪些条件要求？</span>
+            <span class="faq-arrow">▼</span>
+          </div>
+          <div class="faq-a">
+            我们接受处于不同阶段的创业项目，从创意阶段到已有初步产品均可报名。核心要求是：创始人有清晰的方向意愿、愿意接受导师建议并积极执行。我们会在正式陪跑前进行评估访谈，确保双方匹配。
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            <span>培训课程是线上还是线下？</span>
+            <span class="faq-arrow">▼</span>
+          </div>
+          <div class="faq-a">
+            目前主要以线上直播 + 录播相结合的形式进行，方便全国各地学员参与。我们也定期在商丘举办线下集训营，参加线下活动可获得更密集的实战演练和导师面对面指导。
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            <span>如何快速获得回复？</span>
+            <span class="faq-arrow">▼</span>
+          </div>
+          <div class="faq-a">
+            通过上方表单留言是最快捷的方式，我们承诺在 1 个工作日内回复。如有紧急需求，也可通过关注我们的官方公众号私信联系，通常 2 小时内响应。
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section-cta">
+    <div class="container cta-inner">
+      <h2 class="cta-title">期待与您携手，共创 AI 漫剧新时代</h2>
+      <p class="cta-sub">每一次合作，都是一段精彩故事的开始</p>
+      <div class="cta-btns">
+        <a href="services.html" class="btn btn-ghost btn-lg">查看全部服务</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo logo-light">
+          <span class="logo-icon">⊙</span>
+          <span class="logo-text">氧漫科技</span>
+        </a>
+        <p>商丘氧漫网络科技有限公司</p>
+        <p>用 AI 之力，重塑漫剧新纪元</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>快速导航</h5>
+          <a href="index.html">首页</a>
+          <a href="about.html">关于我们</a>
+          <a href="services.html">产品服务</a>
+          <a href="contact.html">联系我们</a>
+        </div>
+        <div class="footer-col">
+          <h5>核心服务</h5>
+          <a href="services.html#production">AI 漫剧制作发行</a>
+          <a href="services.html#training">AI 漫剧教学培训</a>
+          <a href="services.html#startup">AI 项目创业陪跑</a>
+        </div>
+        <div class="footer-col">
+          <h5>联系方式</h5>
+          <span>📍 商丘市</span>
+          <span>📧 284198128@qq.com</span>
+          <span>📞 商务合作请留言</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2025 商丘氧漫网络科技有限公司 版权所有</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
